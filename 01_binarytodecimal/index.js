@@ -1,7 +1,7 @@
 const binary = document.querySelector('#binary');
 const decimal = document.querySelector('#decimal');
 const btn = document.querySelector('#cbtn').addEventListener('click', init);
-const invalidMessage = "Enter a valid binary number to convert.";
+const invalidMessage = "Enter a valid binary number to.";
 decimal.value = invalidMessage;
 function init(e) {
   binary.addEventListener('input', runevent);
